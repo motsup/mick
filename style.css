@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+.header{
+	width: 100%;/*横幅マックス*/
+	height: 70px;/*高さ*/
+	display: flex;/*配置の箱*/
+	justify-content: space-between;/*端ピッタリ均等配置*/
+}
+
+.header_title{
+	font-size: 38px;/*文字サイズ*/
+	margin-left: 20px;/*左に隙間*/
+	font-family: "Times New Roman";
+	font-weight: bold;/*太文字*/
+}
+
+.header_menu img{/*画像サイズとか*/
+	width:30px; /*横幅*/
+	height: 30px;/*縦幅、横幅と同じがいい正方形*/
+	margin-right: 20px;/*右に隙間*/
+}
+
+.mick{
+	padding: 10px;/*内側の余白*/
+	width: 40%;/*横幅*/
+	margin: auto;/*外側の余白*/
+	border: 1px black solid;/*黒の枠線の実践*/
+	text-align: center;/*中央配置*/
+}
+
+.logo{
+	color:black;/*黒*/
+	font-weight: bold;/*太線*/
+	font-size: 40px;/*文字サイズ*/
+	font-family: "Times New Roman";
+}
+
+.design_area{
+	width: 100%;/*横幅*/
+	margin-top: 50px;/*上の余白*/
+	height: 390px/*上に隙間が空きすぎたとき高さで調節*/
+}
+
+.design{
+	width: 100%;/*横幅*/
+	text-align: center;/*文字だけを真ん中に*/
+	font-family: "Times New Roman";
+	font-size: 25px;/*文字サイズ*/
+	font-weight: bold;/*文字太さ*/
+	background-image: url('img/title_bg2.png');/*divの下に入る羽みたいな画像の挿入*/
+	background-position: center;/*divの下に入る*/
+	height: 90px;/*高さ*/
+}
+
+.design_image {
+	width: 100%;/*横幅マックス*/
+	height: 500px;/*高さ*/
+	display: flex;/*配置の箱*/
+	justify-content:space-around;/*横に余白ありの均等*/
+}
+
+.design_image img{/*目の画像サイズの調整*/
+	width: 300px;/*横幅*/
+	height: 300px;/*縦幅*/
+}
+
+.menu_area{
+	width: 100%;/*横幅*/
+	margin-top: 50px;/*上の余白*/
+}
+
+.menu{
+	width: 100%;/*横幅*/
+	text-align: center;/*文字だけ真ん中*/
+	font-family: "Times New Roman";/**/
+	font-size: 25px;/*文字サイズ*/
+	font-weight: bold;/*文字太さ*/
+	background-image: url('img/title_bg2.png');/*羽みたいな画像*/
+	background-position: center;/**/
+	height: 90px;/*高さ*/
+}
+
+.menu_course{
+	width: 100%;/*横幅*/
+	display: flex;/*配置の箱*/
+	justify-content:center;/*箱の真ん中*/
+}
+
+.course_single{
+	font-size: 25px;/*文字サイズ*/
+	font-weight: bold;/*文字太さ*/
+	font-family: "Times New Roman";/**/
+	text-align: center;/*文字だけ真ん中*/
+}
+
+.single_40{
+	font-size: 20px;/*文字サイズ*/
+	text-align: center;/*文字だけ真ん中*/
+}
+
+
+
+
+
+
+
+
+
+
