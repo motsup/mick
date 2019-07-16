@@ -111,6 +111,45 @@
 	text-align: center;/*文字だけ真ん中*/
 }
 
+.course_underlash{
+	font-size: 25px;/*文字サイズ*/
+	font-weight: bold;/*文字太さ*/
+	font-family: "Times New Roman";/**/
+	text-align: center;/*文字だけ真ん中*/
+}
+
+.underlash_100{
+	font-size: 20px;/*文字サイズ*/
+	text-align: center;/*文字だけ真ん中*/
+}
+
+.course_option{
+	font-size: 25px;/*文字サイズ*/
+	font-weight: bold;/*文字太さ*/
+	font-family: "Times New Roman";/**/
+	text-align: center;/*文字だけ真ん中*/
+}
+
+.course_coupon{
+	font-size: 20px;/*文字サイズ*/
+	font-weight: bold;/*文字太さ*/
+	font-family: "Times New Roman";/**/
+	text-align: center;/*文字だけ真ん中*/
+}
+
+.course_coupon_title{
+	font-size: 25px;/*文字サイズ*/
+	font-weight: bold;/*文字太さ*/
+	font-family: "Times New Roman";/**/
+	text-align: center;/*文字だけ真ん中*/
+}
+
+
+
+
+
+
+
 
 
 
