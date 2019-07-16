@@ -85,10 +85,13 @@
 }
 
 .course_single{
-	font-size: 25px;/*文字サイズ*/
+	font-size: 24px;/*文字サイズ*/
 	font-weight: bold;/*文字太さ*/
 	font-family: "Times New Roman";/**/
 	text-align: center;/*文字だけ真ん中*/
+	width: 200px;
+	margin:0px auto;
+	margin-bottom: 30px;
 }
 
 .single_40{
@@ -97,10 +100,13 @@
 }
 
 .course_volume{
-	font-size: 25px;/*文字サイズ*/
+	font-size: 24px;/*文字サイズ*/
 	font-weight: bold;/*文字太さ*/
 	font-family: "Times New Roman";/**/
 	text-align: center;/*文字だけ真ん中*/
+	width: 200px;
+	margin:0px auto;
+	margin-bottom: 30px;
 }
 
 .volume_100{
@@ -109,10 +115,13 @@
 }
 
 .course_underlash{
-	font-size: 25px;/*文字サイズ*/
+	font-size: 24px;/*文字サイズ*/
 	font-weight: bold;/*文字太さ*/
 	font-family: "Times New Roman";/**/
 	text-align: center;/*文字だけ真ん中*/
+	width: 200px;
+	margin:0px auto;
+	margin-bottom: 30px;
 }
 
 .underlash_100{
@@ -121,10 +130,13 @@
 }
 
 .course_option{
-	font-size: 25px;/*文字サイズ*/
+	font-size: 24px;/*文字サイズ*/
 	font-weight: bold;/*文字太さ*/
 	font-family: "Times New Roman";/**/
 	text-align: center;/*文字だけ真ん中*/
+	width: 200px;
+	margin:0px auto;
+	margin-bottom: 30px;
 }
 
 .course_coupon{
@@ -132,6 +144,9 @@
 	font-weight: bold;/*文字太さ*/
 	font-family: "Times New Roman";/**/
 	text-align: center;/*文字だけ真ん中*/
+	width: 200px;
+	margin:0px auto;
+	margin-bottom: 30px;
 }
 
 .course_coupon_title{
@@ -139,16 +154,43 @@
 	font-weight: bold;/*文字太さ*/
 	font-family: "Times New Roman";/**/
 	text-align: center;/*文字だけ真ん中*/
+	width: 200px;
+	margin:0px auto;
 }
 
+.contact_area{
+	width: 100%;/*横幅*/
+	margin-top: 50px;/*上の余白*/
+	margin-bottom: 80px;
+}
 
+.contact_title{
+	width: 100%;/*横幅*/
+	text-align: center;/*文字だけを真ん中に*/
+	font-family: "Times New Roman";
+	font-size: 25px;/*文字サイズ*/
+	font-weight: bold;/*文字太さ*/
+	background-image: url('img/title_bg2.png');/*divの下に入る羽みたいな画像の挿入*/
+	background-position: center;/*divの下に入る*/
+	height: 90px;/*高さ*/
+}
 
+.contact_mail{
+	text-align: center;
+	font-family: "Times New Roman";
+	font-weight: bold;
+	font-size: 16px;
+}
 
+.contact_address{
+	color: black;
+}
 
+.copyright_title{
+	width: 100%;
+	text-align: center;
+}
 
-
-
-
-
-
-
+.copyright{
+	color: #a9a9a9;
+}

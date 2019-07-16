@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>mick</title>
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 		<link rel="stylesheet" href="./style.css">
 	</head>
 	<body>
@@ -21,9 +23,11 @@
 				<div class="design_title">Design</div>
 			</div>
 			<div class="design_image">
-				<img src="img/eye_1.jpg">
-				<img src="img/eye_2.jpg">
-				<img src="img/eye_3.jpg">
+				<div><img src="img/eye_1.jpg"></div>
+				<div><img src="img/eye_2.jpg"></div>
+				<div><img src="img/eye_3.jpg"></div>
+				<div><img src="img/eye_4.jpg"></div>
+				<div><img src="img/eye_5.jpg"></div>
 			</div>
 		</div>
 
@@ -39,19 +43,19 @@
 						<table>
 							<tr>
 								<td>80本　</td>
-								<td>￥5000</td>
+								<td>¥5,000</td>
 							</tr>
 							<tr>
 								<td>120本　</td>
-								<td>￥7000</td>
+								<td>¥7,000</td>
 							</tr>
 							<tr>
 								<td>160本　</td>
-								<td>￥9000</td>
+								<td>¥9,000</td>
 							</tr>
 							<tr>
 								<td class="single_40">＋20本ごと</td>
-								<td class="single_40">￥1000</td>
+								<td class="single_40">¥1,000</td>
 							</tr>
 						</table>
 					</div>	
@@ -63,19 +67,19 @@
 						<table>
 							<tr>
 								<td>300本　</td>
-								<td>￥7000</td>
+								<td>¥7,000</td>
 							</tr>
 							<tr>
 								<td>500本　</td>
-								<td>￥9000</td>
+								<td>¥9,000</td>
 							</tr>
 							<tr>
 								<td>700本　</td>
-								<td>￥11,000</td>
+								<td>¥11,000</td>
 							</tr>
 							<tr>
 								<td class="volume_100">＋100本ごと</td>
-								<td class="volume_100">￥1000</td>
+								<td class="volume_100">¥1,000</td>
 							</tr>
 						</table>
 					</div>
@@ -87,15 +91,15 @@
 						<table>
 							<tr>
 								<td>30本　</td>
-								<td>￥2000</td>
+								<td>¥2,000</td>
 							</tr>
 							<tr>
 								<td>60本　</td>
-								<td>￥3500</td>
+								<td>¥3,500</td>
 							</tr>
 							<tr>
 								<td class="underlash_100">＋10本ごと</td>
-								<td class="underlash_100">￥500</td>
+								<td class="underlash_100">¥500</td>
 							</tr>
 						</table>
 					</div>
@@ -107,11 +111,11 @@
 						<table>
 							<tr>
 								<td>Color</td>
-								<td>￥500</td>
+								<td>¥500</td>
 							</tr>
 							<tr>
 								<td>All remove</td>
-								<td>￥500</td>
+								<td>¥500</td>
 							</tr>
 						</table>
 					</div>
@@ -122,20 +126,67 @@
 						<table>
 							<tr>
 								<td>次回予約</td>
-								<td>￥500引き</td>
+								<td>　¥500off</td>
 							</tr>
 							<tr>
-								<td>3週間以内の来店</td>
-								<td>￥500引き</td>
+								<td>3Weeks</td>
+								<td>　¥500off</td>
 							</tr>
 							<tr>
 								<td>友人紹介</td>
-								<td>￥1000引き</td>
+								<td>　¥1,000off</td>
 							</tr>
 						</table>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<div class="contact_area">
+			<div class="contact_title">Contact</div>
+			<div class="contact_mail">
+				<a class="contact_address" href="mailto:mick.nakameguro@gmail.com">mick.nakameguro@gmail.com</a>
+			</div>
+		</div>
+
+		<div class="copyright_title">
+			<div class="copyright">&copy; 2019 mick.</div>
+		</div>
+		<script type="text/javascript" src="./jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+  				$('.design_image').slick({
+				  centerMode: true,
+				  centerPadding: '60px',
+				  slidesToShow: 3,
+				  slidesToScroll: 1,
+				  autoplay: true,
+				  autoplaySpeed: 2000,
+				  responsive: [
+				    {
+				      breakpoint: 768,
+				      settings: {
+				        arrows: false,
+				        centerMode: true,
+				        centerPadding: '40px',
+				        slidesToShow: 3
+				      }
+				    },
+				    {
+				      breakpoint: 480,
+				      settings: {
+				        arrows: false,
+				        centerMode: true,
+				        centerPadding: '40px',
+				        slidesToShow: 1
+				      }
+				    }
+				  ]
+				});
+			});
+		</script>
+
 	</body>
 </html>
