@@ -83,7 +83,8 @@
 .menu_course{
 	width: 100%;/*横幅*/
 	display: flex;/*配置の箱*/
-	justify-content:center;/*箱の真ん中*/
+	justify-content:column;/*????*/
+	justify-content:center;
 }
 
 .course_single{
@@ -98,9 +99,17 @@
 	text-align: center;/*文字だけ真ん中*/
 }
 
+.course_volume{
+	font-size: 25px;/*文字サイズ*/
+	font-weight: bold;/*文字太さ*/
+	font-family: "Times New Roman";/**/
+	text-align: center;/*文字だけ真ん中*/
+}
 
-
-
+.volume_100{
+	font-size: 20px;/*文字サイズ*/
+	text-align: center;/*文字だけ真ん中*/
+}
 
 
 
