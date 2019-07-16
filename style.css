@@ -82,9 +82,6 @@
 
 .menu_course{
 	width: 100%;/*横幅*/
-	display: flex;/*配置の箱*/
-	justify-content:column;/*????*/
-	justify-content:center;
 }
 
 .course_single{
